@@ -30,4 +30,4 @@ jobs:
           path: hello.txt
           
       - name: View File
-        run: echo hello.txt
+        run: cat hello.txt
