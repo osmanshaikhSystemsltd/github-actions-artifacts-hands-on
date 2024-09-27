@@ -30,4 +30,4 @@ jobs:
           path: .
           
       - name: View File
-        run: ls -lrt
+        run: cat hello.txt
