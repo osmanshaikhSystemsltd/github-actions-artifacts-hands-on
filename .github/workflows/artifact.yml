@@ -21,9 +21,9 @@ jobs:
     
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
-        with:
-          name: my_artifact
-          path: ./
+      with:
+        name: my_artifact
+        path: ./
 
   download:
     runs-on: ubuntu-latest
